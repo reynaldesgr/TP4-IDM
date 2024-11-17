@@ -1,9 +1,11 @@
-Overview 
+### Overview 
 
-This project implements a stack data structure in C, with basic operations like push (empiler) and pop (depiler). 
+This project implements a ` generic stack data structure in C`, with basic operations like `push` (empiler) and `pop` (depiler). 
 I use Check for unit testing to ensure the stack behaves correctly.
 
-Structure
+### Structure
+
+```
 .
 ├── include/                # Header files
 │   └── pile.h              # Stack declarations
@@ -13,3 +15,5 @@ Structure
 ├── tests/                  # Unit tests
 │   └── test_pile.c         # Stack test cases
 ├── Makefile                # Build file to compile and run tests
+
+```
