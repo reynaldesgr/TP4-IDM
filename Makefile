@@ -5,8 +5,8 @@ LDFLAGS = -lcheck -lm -lsubunit
 SRC = src/main.c 
 TEST_SRC = tests/test_pile.c
 
-BIN = main
-TEST_BIN = test
+BIN = build/main
+TEST_BIN = build/test
 
 all: $(BIN)
 
